@@ -27,7 +27,7 @@
             background-color: $lite-blue;
             border-radius: 2px;
           }
-          &:hover{
+          &:hover, &.active{
             &::after {
               width: 18px;
               transition: 0.25s;

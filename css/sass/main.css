@@ -178,7 +178,7 @@ svg {
   background-color: #00B2E2;
   border-radius: 2px;
 }
-.navbar .navbar-collapse .nav-link:hover::after {
+.navbar .navbar-collapse .nav-link:hover::after, .navbar .navbar-collapse .nav-link.active::after {
   width: 18px;
   transition: 0.25s;
 }
