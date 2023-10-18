@@ -28,10 +28,10 @@
             border-radius: 2px;
           }
           &:hover{
-              &::after {
-                width: 18px;
-                transition: 0.25s;
-              }
+            &::after {
+              width: 18px;
+              transition: 0.25s;
+            }
           }
         }
     } 
@@ -42,11 +42,12 @@
       align-items: center;
       gap: 8px;
 
-      .btn {
+      .btn{
         padding: 0.25rem 1.5rem;
         border-radius: 35px;
-        border: 1px black solid;
+        border: 2px black solid;
         font-size: 14px;
+        font-weight: 500;
         color: $white;
 
         &.outline-lite-blue {

@@ -64,14 +64,14 @@ header {
           -o-transform: translateY(-100%);
         }
 
-        .navigate {
+        .features {
             margin-top: -80px;
             display: flex;
             gap: 20px;
             position: relative;
             z-index: 8;
         }
-        .navigate-item {
+        .feature-icon {
             flex-grow: 1;
             height: 120px;
             background: $lite-bg;
@@ -120,11 +120,11 @@ header {
         .icon-wrapper {
             padding-bottom: 4rem;
 
-            .navigate {
+            .features {
                 margin-top: -40px;
                 gap: 8px;
     
-                .navigate-item {
+                .feature-icon {
                     flex-grow: 1;
                     height: 65px;
     
