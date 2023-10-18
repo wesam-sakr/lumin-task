@@ -1,0 +1,113 @@
+/* navbar */
+.navbar {
+    padding: 1rem 0;
+    position: sticky;
+    width: 100%;
+    z-index: 999;
+
+    .navbar-brand {
+        img{
+            width: 85px !important;
+        }
+    }
+
+    .navbar-collapse{
+        .nav-link {
+          position: relative;
+          margin: 0 0.7rem;
+          color: $white !important;
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+            transform: translateX(50%);
+            width: 0;
+            height: 3px;
+            background-color: $lite-blue;
+            border-radius: 2px;
+          }
+          &:hover{
+              &::after {
+                width: 18px;
+                transition: 0.25s;
+              }
+          }
+        }
+    } 
+
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+
+      .btn {
+        padding: 0.25rem 1.5rem;
+        border-radius: 35px;
+        border: 1px black solid;
+        font-size: 14px;
+        color: $white;
+
+        &.outline-lite-blue {
+          border-color: $lite-blue;
+          color: $lite-blue;
+        }
+        &.white-btn {
+          border-color: $white;
+          background: $white;
+          color: $main;
+        }
+      }
+
+      .search {
+        background: transparent;
+      }
+    }
+}
+  
+// nav responsive
+@media(max-width : $md){
+    .navbar {
+        .navbar-collapse {
+            position: absolute;
+            top: 100%;
+            left: 2rem;
+            right: 2rem;
+            border-radius: 10px;
+            padding: 2rem 1rem;
+            background: $lite-blue;
+        }
+        .navbar-toggler {
+          border: none !important;
+          box-shadow: unset !important;
+          filter: brightness(0) invert(1);
+        }
+    }
+}
+@media(max-width : $xs){
+    .navbar {
+      .navbar-collapse {
+        left: 1rem;
+        right: 1rem;
+      }
+      .navbar-brand{
+        img{
+          width: 60px !important;
+        }
+      }
+      .navbar-toggler {
+        padding: 0.25rem 0.25rem;
+        font-size: 1.2rem;
+      }
+    .button-group{
+      gap: 5px;
+      .btn {
+        padding: 0.2rem 1rem;
+        font-size: 13px;
+      }
+    } 
+  }
+}
+  
+  

@@ -1,0 +1,17 @@
+<svg id="search" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+  <g id="Group_2" data-name="Group 2" transform="translate(3.157 4.552)">
+    <g id="Group_1" data-name="Group 1">
+      <path id="Path_1" data-name="Path 1" d="M79.619,111.2a.775.775,0,0,0-1.1,0A5.3,5.3,0,0,0,77,115.5a.776.776,0,0,0,.771.7c.026,0,.052,0,.078,0a.776.776,0,0,0,.695-.849,3.756,3.756,0,0,1,1.07-3.047A.775.775,0,0,0,79.619,111.2Z" transform="translate(-76.978 -110.975)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_4" data-name="Group 4">
+    <g id="Group_3" data-name="Group 3">
+      <path id="Path_2" data-name="Path 2" d="M8.871,0a8.871,8.871,0,1,0,8.871,8.871A8.881,8.881,0,0,0,8.871,0Zm0,16.19A7.319,7.319,0,1,1,16.19,8.871,7.327,7.327,0,0,1,8.871,16.19Z" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_6" data-name="Group 6" transform="translate(13.81 13.81)">
+    <g id="Group_5" data-name="Group 5">
+      <path id="Path_3" data-name="Path 3" d="M343.671,342.575l-5.638-5.638a.776.776,0,1,0-1.1,1.1l5.638,5.638a.776.776,0,1,0,1.1-1.1Z" transform="translate(-336.708 -336.71)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
